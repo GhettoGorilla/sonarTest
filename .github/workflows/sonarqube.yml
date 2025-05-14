@@ -41,6 +41,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
+            -Dsonar.organization=ghettogorilla
             -Dsonar.projectKey=GhettoGorilla_sonarTest
             -Dsonar.projectName=sonarTest
             -Dsonar.projectVersion=1.0
