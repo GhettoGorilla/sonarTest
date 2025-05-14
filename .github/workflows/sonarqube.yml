@@ -41,8 +41,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=vulnerable_flask_app
-            -Dsonar.projectName=Vulnerable_Flask_App
+            -Dsonar.projectKey=sonarTest
+            -Dsonar.projectName=sonarTest
             -Dsonar.projectVersion=1.0
             -Dsonar.sources=.
             -Dsonar.exclusions=**/tests/**,**/venv/**
