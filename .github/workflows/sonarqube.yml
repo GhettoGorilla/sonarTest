@@ -17,6 +17,7 @@ jobs:
   sonarqube-analysis:
     name: SonarQube Analysis
     runs-on: ubuntu-latest
+    environment: sonarcloud
 
     steps:
       - name: Checkout code
